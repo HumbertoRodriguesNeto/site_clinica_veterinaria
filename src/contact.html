@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto 1 site</title>
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Sobre nossa Clínica</a></li>
+          <li><a href="schedule.html">Horário de atendimento</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="img/contatopet.webp" width="1100" alt="Header Image" />
+
+          <!-- Aqui vai o seu header -->
+        </div>
+
+        <div class="content">
+          <span>
+            <h1>Contato</h1>
+            <h3>
+              Telefone: (11)2962-0985 <br />
+              Whatsapp: (11)94567-8723<br />
+              E-mail: clinicvet@gmail.com<br />
+              Endereço: R. Tuiuti, 3025 - Tatuapé, São Paulo - SP, 03307-005
+            </h3>
+          </span>
+
+          <h1>Formulário de cadastro</h1>
+          <hr />
+          <!--Está tag hr faz um traço que fica bem elegante nos formulários -->
+          <form>
+            <fieldset>
+              <legend>Dados Pessoais</legend>
+              <div class="row">
+                <label>Nome:</label> <input type="text" /> <label>E-mail:</label
+                ><input type="text" />
+              </div>
+              <div class="row">
+                <label>Nome/Animal:</label> <input type="text" />
+                <label>Tipo/Raça:</label><input type="text" />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Endereço</legend>
+              <div class="row">
+                <label>Endereço:</label> <input type="text" />
+                <label>Número:</label
+                ><input style="width: 30px" type="text" width="10" />
+              </div>
+              <div class="row">
+                <label>Bairro:</label> <input type="text" />
+              </div>
+              <div class="row">
+                <label>Cidade/UF:</label> <input type="text" />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Contato</legend>
+              <div class="row">
+                <label>Celular:</label><input type="text" />
+                <label>Whatsapp:</label><input type="text" />
+              </div>
+              <div class="row">
+                <label>Assunto:</label><input type="text" />
+                <label>Mensagem:</label><input type="textarea" />
+              </div>
+            </fieldset>
+
+            <div class="row">
+              <button input="reset">Limpar</button>
+
+              <button
+                onclick="alert('Formulário Enviado com Sucesso!')"
+                type="button"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3657.453781920776!2d-46.5747986850224!3d-23.55214048468742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps%20Endere%C3%A7o%3A%20R.%20Tuiuti%2C%203025%20-%20Tatuap%C3%A9%2C%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1680825514458!5m2!1spt-BR!2sbr"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="footer">
+          <a target="_blank" href="https://pt-br.facebook.com/"
+            ><img src="img/facebook.png" alt="Facebook" width="50" height="50"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/?hl=pt-br"
+            ><img src="img/insta.png" alt="instagram" width="50" height="50"
+          /></a>
+          <a target="_blank" href="https://www.youtube.com/?gl=BR&hl=pt"
+            ><img src="img/youtube.png" alt="Youtube" width="50" height="50"
+          /></a>
+          <a target="_blank" href="https://outlook.live.com"
+            ><img src="img/email.webp" alt="Email" width="50" height="50"
+          /></a>
+          <a target="_blank" href="https://web.whatsapp.com/%F0%9F%8C%90/pt-br"
+            ><img
+              src="img/whatsapp.png"
+              alt="Whatsapp"
+              width="50"
+              height="50" /></a
+          ><br /><br />
+
+          <div class="text-center p-3">
+            © 2023 Copyright:
+
+            <a class="text-white" href="https://HRNsoftwares.com/"
+              ><small>HRN Softwares</small></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
